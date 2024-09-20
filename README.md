@@ -36,7 +36,7 @@ chmod +x setup.sh && bash setup.sh
 # Uso
 
 ## Comandos disponibles
-- scaffold <project_name>: Crea un nuevo proyecto.
+- new <project_name>: Crea un nuevo proyecto.
 
 - new-module <name>: Crea un nuevo módulo (lib o test).
 
@@ -46,15 +46,4 @@ chmod +x setup.sh && bash setup.sh
 
 - deploy: Realiza el deploy en Solana.
 
-
-## Estructura del Proyecto
-- sol-cli/: Contiene todos los archivos y directorios del CLI.
-
-- src/: Contiene el código fuente del proyecto.
-
-- tests/: Contiene los módulos de prueba.
-
-- configs/: Contiene archivos de configuración.
-
-- connections/: Maneja conexiones con la blockchain.
 
