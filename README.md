@@ -19,16 +19,19 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```bash
 git clone https://github.com/neocarvajal/sol-cli.git
 cd sol-cli
+```
 
 - Compila el proyecto
 
 ```bash
 cargo build
+```
 
 - Ejecuta setup.sh para agregar las rutas al PATH (opcional)
 
 ```bash
 chmod +x setup.sh && bash setup.sh
+```
 
 # Uso
 
