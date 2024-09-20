@@ -5,7 +5,7 @@ pub fn run() {
     
     if args.len() > 1 && args[1] == "new" {
         if args.len() != 3 {
-            eprintln!("Uso: my_sol_cli new [NOMBRE_PROYECTO]");
+            eprintln!("Uso: sol_cli#: new [NOMBRE_PROYECTO]");
             return;
         }
         let project_name = &args[2];
