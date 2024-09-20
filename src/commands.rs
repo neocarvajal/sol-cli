@@ -27,3 +27,8 @@ fn create_new_project(project_name: &str) {
     println!("Proyecto '{}' creado en '{}'", project_name, project_path);
 }
 
+fn create_new_module(module_name: &str) {
+    let module_path = format!("src/modules/{}", module_name);
+    std::fs::create_dir_all(&module_path).expect("No se pudo crear el módulo");
+    println!("Módulo '{}' creado en '{}'", module_name, module_path);
+}
